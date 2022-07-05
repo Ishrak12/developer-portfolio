@@ -9,23 +9,33 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
 .name {
     color: rgba(236, 30, 143, 0.685);
 
 }
 
-section {
+.flexible-container {
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 120px;
 }
 
 .half-width {
     width: 60%;
-    padding-left: 6%;
+    padding-left: 5%;
+    padding-right: 100px;
 }
 
 .half-width image {
     width: 100%;
+    padding-right: 20px;
 
 }
 
@@ -47,4 +57,35 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-position-y: 120px;
+}
+
+.Experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-right: 3px;
+
+    box-shadow: 15px 15px 40px gray;
+
+}
+
+.experience-area {
+    background-image: url(images/purple-exp-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-developer {
+    border-left: 7px solid rgba(255, 20, 145, 0.836);
+}
+
+#baby-web-developer {
+    border-left: 7px solid #6212bedc;
+}
+
+footer p {
+    text-align: center;
 }
